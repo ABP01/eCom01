@@ -32,3 +32,16 @@ nav {
     text-decoration: none;
     color: #333;
    }
+
+   main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   }
+   #featured-product {
+    border: 1px solid #ddd;
+    padding: 20px;
+   }
+   #featured-product h2 {
+    margin: 0;
+   }

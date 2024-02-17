@@ -33,5 +33,20 @@
 
 .title::after{
     content: '\f005';
-    font-family: poppins;
+    font-family: FontAwesome;
+    color: #dbdbdb;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: #eee;
+    transform: translateX(-50%);
+    font-size: 16px;
+
+}
+
+.title p{
+    
 }

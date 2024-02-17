@@ -14,7 +14,8 @@
 }
 
 .title{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
     text-align: center;
     position: relative;
 }
@@ -40,7 +41,7 @@
     line-height: 20px;
     position: absolute;
     bottom: 10%;
-    left: 10%;
+    left: 50%;
     background: #eee;
     transform: translateX(-50%);
     font-size: 16px;
@@ -48,5 +49,20 @@
 }
 
 .title p{
+    color: #999;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title h1{
+    font-size: 44px;
+    color: #131313;
+    font-weight: 900;
+    text-transform: uppercase;
     
+}
+
+.title h1 span{
+    color: #fa0;
 }

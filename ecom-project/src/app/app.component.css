@@ -135,7 +135,7 @@
   line-height: 45px;
   background: #131313;
   transition: all 1s ease-in-out;
-  /*opacity: 0;*/
+  opacity: 0;
   position: relative;
   top: -30px;
 }
@@ -172,6 +172,11 @@
 
 .cart-item ul li a:hover {
   color: #fa0;
+}
+
+.card:hover .cart-item{
+  opacity: 1;
+  top: 0px;
 }
 
 .product-container {
@@ -240,6 +245,14 @@
   color: #fa0;
   font-weight: 700;
   font-style: italic;
-  margin-right: 6px;
-  
+  margin-right: 6px;  
 }
+
+.content .old-price{
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #888;
+  font-style: italic;
+  font-weight: 400;
+}
+

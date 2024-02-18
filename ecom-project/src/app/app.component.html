@@ -11,18 +11,18 @@
             <div class="discount">9%</div>
             <div class="label label-green">Pre-Order Now!</div>
               <div class="product-container">
-                <div class="p">
+                <div class="p" (mouseover)="changeImage($event)">
                   <img src="../assets/img1.jpg" alt="Product" />
                 </div>
-                <div class="p">
+                <div class="p" (mouseover)="changeImage($event)">
                   <img src="../assets/img1.jpg" alt="Product" />
                 </div>
-                <div class="p">
+                <div class="p" (mouseover)="changeImage($event)">
                   <img src="../assets/img1.jpg" alt="Product" />
                 </div>
               </div>
             <div class="image">
-              <img src="../assets/img2.jpg" alt="Image" />
+              <img src="{{url}}" alt="Image" />
             </div>
             <div class="cart-line"></div>
             <div class="cart-item">

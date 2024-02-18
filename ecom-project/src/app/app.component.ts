@@ -17,7 +17,8 @@ export class AppComponent implements OnInit{
 
   url:string = "../assets/img1.jpg";
   changeImage(event:any){
-    console.log(event.target.src);
+    this.url = event.target.src;
+    console.log();
   }
 
 }

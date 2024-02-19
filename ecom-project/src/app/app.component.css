@@ -63,7 +63,7 @@
 }
 
 .title h1 span {
-  color: #fa0;
+  color: rgb(0, 136, 255);
 }
 
 .card {
@@ -121,8 +121,8 @@
 }
 
 .image img {
-  width: 50%;
-  height: 50%;
+  width: 15%;
+  height: 15%;
 }
 
 .cart-line {
@@ -222,6 +222,7 @@
   font-weight: 700;
   text-transform: capitalize;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 .content a:hover {
